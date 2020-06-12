@@ -6,6 +6,7 @@
 
 body {
   min-width: 320px;
+  margin: 0;
 
   background-color: #ffffff;
 }
@@ -34,3 +35,7 @@ textarea {
 @import "var.scss";
 @import "fonts.scss";
 @import "visually-hidden.scss";
+@import "page-header.scss";
+@import "logo.scss";
+@import "header-contacts.scss";
+
