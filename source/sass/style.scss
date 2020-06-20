@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   min-width: 320px;
   margin: 0;
@@ -31,6 +36,18 @@ textarea {
   resize: none;
 }
 
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+}
+
+.page-main {
+  flex-grow: 1;
+  min-height: 122px;
+}
+
 @import "mixins.scss";
 @import "var.scss";
 @import "fonts.scss";
@@ -38,4 +55,9 @@ textarea {
 @import "page-header.scss";
 @import "logo.scss";
 @import "header-contacts.scss";
-
+@import "page-footer.scss";
+@import "accordion.scss";
+@import "footer-main.scss";
+@import "socials.scss";
+@import "nav.scss";
+@import "footer.scss";

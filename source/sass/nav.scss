@@ -1,0 +1,22 @@
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100px;
+}
+
+.nav li {
+  margin-right: 12%;
+}
+
+@media (max-width: $tablet-width) {
+  .nav ul {
+    height: auto;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .nav {
+    padding: 28px 17px;
+  }
+}

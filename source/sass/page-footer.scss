@@ -1,0 +1,163 @@
+.page-footer {
+  background-color: #fafafa;
+}
+
+.page-footer__row {
+  display: flex;
+  max-width: 1470px;
+  padding: 65px 30px;
+  margin: 0 auto;
+}
+
+.footer__wrapper {
+  max-width: 1470px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.page-footer h2 {
+  font-family: $roboto;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #1b2d37;
+}
+
+.page-footer__main {
+  display: flex;
+  flex-shrink: 0;
+  margin-right: 12.5%;
+}
+
+.footer-main__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-footer__logo {
+  outline: none;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.4;
+  }
+
+  &:focus {
+    opacity: 0.4;
+  }
+}
+
+.page-footer__logo-image {
+}
+
+.page-footer__socials {
+}
+
+.page-footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 69%;
+}
+
+.page-footer__container h2 {
+  margin: 0;
+}
+
+.page-footer__nav {
+  width: 65%;
+}
+
+.page-footer__nav a {
+  font-family: $mono;
+  font-size: 15px;
+  line-height: 25px;
+
+  color: #1b2d37;
+
+  opacity: 0.5;
+}
+
+.page-footer__contacts {
+  width: 35%;
+}
+
+.page-footer__contacts p {
+  margin: 0;
+
+  font-family: $mono;
+  font-size: 15px;
+  line-height: 25px;
+
+  color: #1b2d37;
+
+  opacity: 0.5;
+}
+
+@media (max-width: $tablet-width) {
+  .page-footer__row {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .footer__wrapper {
+    padding: 0 25px;
+  }
+
+  .page-footer__main {
+    display: block;
+    padding: 19px 25px 26px;
+    margin-right: 0;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .footer-main__wrapper {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .page-footer__container {
+    width: 100%;
+    padding: 38px 25px;
+  }
+
+  .page-footer__nav {
+    width: 50%;
+  }
+
+  .page-footer__contacts {
+    width: 50%;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .footer__wrapper {
+    padding: 0 17px;
+  }
+
+  .footer-main__wrapper {
+    flex-direction: column;
+  }
+
+  .page-footer__container {
+    display: block;
+    padding: 0;
+  }
+
+  .page-footer__nav {
+    width: 100%;
+  }
+
+  .page-footer__contacts {
+    width: 100%;
+    padding: 28px 17px;
+    border-top: 1px solid #e5e5e5;
+  }
+}

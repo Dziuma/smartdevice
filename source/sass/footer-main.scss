@@ -1,0 +1,23 @@
+.footer-main {
+
+}
+
+.footer-main__copyright {
+  display: none;
+
+  font-family: $mono;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #1b2d37;
+
+  opacity: 0.5;
+}
+
+@media (max-width: $tablet-width) {
+  .footer-main__copyright {
+    display: block;
+  }
+}
