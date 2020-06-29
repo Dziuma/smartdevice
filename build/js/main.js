@@ -25,6 +25,11 @@
           item.classList.remove("hide");
         }
       };
+      for (var item of accordion) {
+        if (item.classList.contains("active")) {
+          item.classList.remove("active");
+        }
+      };
     } else {
       for (var item of panel) {
         item.classList.toggle("hide");

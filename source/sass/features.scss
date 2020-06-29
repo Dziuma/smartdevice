@@ -61,11 +61,12 @@
   }
 
   .features__item {
+    width: 48%;
     padding: 24px 20px 27px 27px;
   }
 
   .features__icon {
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 
     &--hired,
     &--tag {
